@@ -52,7 +52,7 @@ RPSMediaHandler.prototype = {
     mediaHint || (mediaHint = {});
     if (['rock', 'paper', 'scissors'].indexOf(mediaHint.gesture) < 0) {
       setTimeout(function () {
-        onFailure(new SIP.Exceptions.GetDescriptionError('Invalid RPS type'));
+        onFailure(new SIP.Exceptions.NotSupportedError('Gesture unsupported'));
       }, 0);
       return;
     }
