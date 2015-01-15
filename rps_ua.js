@@ -102,7 +102,7 @@ RPSMediaHandler.prototype = {
     if (!this.myGesture || !this.theirGesture) { return; }
 
     console.log('\n\n------------\n\n');
-    console.error('Negotiation complete!');
+    console.log('Negotiation complete!');
     if (this.myGesture == this.theirGesture) {
       console.log('TIE!');
     } else if ((this.myGesture == 'rock' && this.theirGesture == 'paper') ||
