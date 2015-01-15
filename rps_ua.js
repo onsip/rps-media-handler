@@ -125,6 +125,7 @@ exports.createUA = function (uri) {
   return new SIP.UA({
     uri: uri,
     mediaHandlerFactory: rpsMediaHandlerFactory,
+    userAgentString: 'SIP.js/0.6.4 Rock-Paper-Scissors/1.0.0',
     traceSip: true
   });
 }
