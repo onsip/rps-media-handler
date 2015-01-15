@@ -1,0 +1,15 @@
+{
+  "name": "custom-media-handler",
+  "version": "1.0.0",
+  "description": "An example of a simple custom media handler in SIP.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Will Mitchell <will@onsip.com>",
+  "license": "ISC",
+  "dependencies": {
+    "sip.js": "^0.6.4",
+    "ws": "^0.6.5"
+  }
+}
